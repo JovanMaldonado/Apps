@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mochilero.app.android.mochilero.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <Button
+        android:id="@+id/FacebookButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <Button
+        android:id="@+id/GoogleButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ingresa a la aventura!"
+        android:textAlignment="center"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+</android.support.constraint.ConstraintLayout>
